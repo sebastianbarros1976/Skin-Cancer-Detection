@@ -29,13 +29,13 @@ This project demonstrates the use of a Convolutional Neural Network (CNN) to cla
 
 ## Dataset
 
-The dataset used for this project can be found on various platforms like Kaggle. Ensure you have the images organized into appropriate directories (e.g., `train`, `val`, `test`).
+The dataset used for this project is the [Skin Cancer: Malignant vs. Benign](https://www.kaggle.com/datasets/fanconic/skin-cancer-malignant-vs-benign/data) dataset from Kaggle.
 
-1. Download the dataset and extract it into a directory named `data`.
+1. Download the dataset from Kaggle and extract it into a directory named `data`.
 
     ```bash
-    kaggle datasets download -d <dataset-id>
-    unzip <dataset-file>.zip -d data
+    kaggle datasets download -d fanconic/skin-cancer-malignant-vs-benign
+    unzip skin-cancer-malignant-vs-benign.zip -d data
     ```
 
 ## Model Architecture
