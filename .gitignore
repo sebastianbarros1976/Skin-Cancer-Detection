@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.ipynb_checkpoints
+data/
+model_cnn.pt
+.DS_Store
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
